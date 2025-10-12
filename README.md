@@ -7,7 +7,7 @@ to [contact the Payfast support team](https://payfast.io/contact/) should you re
 
 ## Installation
 
-1. Download **[payfast.zip](https://github.com/Payfast/mod-cscart/releases/download/v1.2.0/payfast.zip)**.
+1. Download **[payfast.zip](https://github.com/Payfast/cscart-aggregation/releases/download/v1.2.0/payfast.zip)**.
 2. Login to your admin dashboard, then navigate to **Add-ons** -> **Downloaded add-ons**.
 2. On the top right corner, navigate to **Settings Icon** -> **Manual installation**.
 3. Click **Local** and select **payfast.zip**. Now click **Upload & Install**.
