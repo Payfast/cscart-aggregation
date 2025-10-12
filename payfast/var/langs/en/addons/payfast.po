@@ -7,7 +7,7 @@ msgstr "Project-Id-Version: tygh\n"
 
 msgctxt "Languages::text_payfast_status_map"
 msgid "text_payfast_status_map"
-msgstr "Payfast payment status to CS-Cart order status conversion map"
+msgstr "Payfast Aggregation payment status to CS-Cart order status conversion map"
 
 msgctxt "Languages::text_payfast_sandbox_live"
 msgid "text_payfast_sandbox_live"
