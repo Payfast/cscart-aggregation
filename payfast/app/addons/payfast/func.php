@@ -11,7 +11,9 @@ function fn_payfast_install()
 {
     // Insert Payfast as a payment processor
     db_query("DELETE FROM ?:payment_processors WHERE processor_script = ?s", "payfast.php");
-    db_query("INSERT INTO ?:payment_processors VALUES(NULL, 'Payfast', 'payfast.php', 'payfast.tpl', 'Y', NULL)");
+    db_query(
+        "INSERT INTO ?:payment_processors (`processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`, `addon`) VALUES ('Payfast Aggregation', 'payfast.php', 'views/orders/components/payments/payfast.tpl', 'payfast.tpl', 'Y', 'P', 'payfast')"
+    );
 }
 
 /**
@@ -20,5 +22,6 @@ function fn_payfast_install()
 function fn_payfast_uninstall()
 {
     // Remove the Payfast payment processor
-    db_query("DELETE FROM ?:payment_processors WHERE processor = ?s", 'Payfast');
+    db_query("DELETE FROM ?:payment_processors WHERE processor = ?s", 'Payfast Aggregation');
+    db_query("DELETE FROM ?:payment_processors WHERE processor_script = ?s", "payfast.php");
 }

@@ -10,17 +10,17 @@
 -->
 <addon scheme="3.0">
     <id>payfast</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <status>active</status>
-    <name>Payfast</name>
+    <name>Payfast Aggregation</name>
     <default_language>en</default_language>
-    <description>Payfast Payment Gateway</description>
-    <supplier>Payfast</supplier>
+    <description>Payfast Aggregation Payment Gateway</description>
+    <supplier>Payfast Aggregation</supplier>
     <translations>
         <item language="en" filename="addons/payfast.po"/>
     </translations>
     <functions>
-        <install>fn_payfast_install</install>
-        <uninstall>fn_payfast_uninstall</uninstall>
+        <item for="install">fn_payfast_install</item>
+        <item for="uninstall">fn_payfast_uninstall</item>
     </functions>
 </addon>

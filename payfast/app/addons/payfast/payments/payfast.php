@@ -9,7 +9,7 @@
  * Released under the GNU General Public License
  *
  * @author     Payfast (Pty) Ltd
- * @version    1.1.0
+ * @version    1.2.0
  */
 
 use Tygh\Http;
@@ -114,9 +114,9 @@ if (defined('PAYMENT_NOTIFICATION')) {
                 $payfastRequest->pflog('Verify data received');
                 $moduleInfo = [
                     "pfSoftwareName"       => 'CSCart',
-                    "pfSoftwareVer"        => "4.18.3",
+                    "pfSoftwareVer"        => "4.18.4",
                     "pfSoftwareModuleName" => 'Payfast-CSCart4',
-                    "pfModuleVer"          => '1.1.0',
+                    "pfModuleVer"          => '1.2.0',
                 ];
 
                 $pfValid = $payfastRequest->pfValidData($moduleInfo, $pfHost, $pfParamString);
