@@ -1,6 +1,12 @@
 # Changelog
 
-## [[1.2.0]](https://bitbucket.org/fortispay/cs-cart/src/1.2.0/)
+## [[1.2.1]](https://github.com/Payfast/cscart-aggregation/releases/tag/v1.2.1)
+
+### Fixed
+
+- Fixed an issue where successful Payfast payments were incorrectly marking orders as cancelled.
+
+## [[1.2.0]](https://github.com/Payfast/cscart-aggregation/releases/tag/v1.2.0)
 
 ### Added
 

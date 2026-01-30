@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /*
- * Copyright (c) 2025 Payfast (Pty) Ltd
+ * Copyright (c) 2026 Payfast (Pty) Ltd
  *
  * Author: App Inlet (Pty) Ltd
  *
@@ -10,7 +10,7 @@
 -->
 <addon scheme="3.0">
     <id>payfast</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <status>active</status>
     <name>Payfast Aggregation</name>
     <default_language>en</default_language>

@@ -1,13 +1,13 @@
 # cscart-aggregation
 
-## Payfast Aggregation module v1.2.0 for CS-Cart v4.18.4
+## Payfast Aggregation module v1.2.1 for CS-Cart v4.19.2
 
 This is the Payfast Aggregation module for CS-Cart. Please feel free
 to [contact the Payfast support team](https://payfast.io/contact/) should you require any assistance.
 
 ## Installation
 
-1. Download **[payfast.zip](https://github.com/Payfast/cscart-aggregation/releases/download/v1.2.0/payfast.zip)**.
+1. Download **[payfast.zip](https://github.com/Payfast/cscart-aggregation/releases/download/v1.2.1/payfast.zip)**.
 2. Login to your admin dashboard, then navigate to **Add-ons** -> **Downloaded add-ons**.
 2. On the top right corner, navigate to **Settings Icon** -> **Manual installation**.
 3. Click **Local** and select **payfast.zip**. Now click **Upload & Install**.

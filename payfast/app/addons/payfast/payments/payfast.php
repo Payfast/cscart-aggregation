@@ -2,14 +2,14 @@
 /**
  * payfast.php
  *
- *  Copyright (c) 2025 Payfast (Pty) Ltd
+ *  Copyright (c) 2026 Payfast (Pty) Ltd
  *
  *  Author: App Inlet (Pty) Ltd
  *
  * Released under the GNU General Public License
  *
  * @author     Payfast (Pty) Ltd
- * @version    1.2.0
+ * @version    1.2.1
  */
 
 use Tygh\Http;
@@ -114,9 +114,9 @@ if (defined('PAYMENT_NOTIFICATION')) {
                 $payfastRequest->pflog('Verify data received');
                 $moduleInfo = [
                     "pfSoftwareName"       => 'CSCart',
-                    "pfSoftwareVer"        => "4.18.4",
+                    "pfSoftwareVer"        => "4.19.1",
                     "pfSoftwareModuleName" => 'Payfast-CSCart4',
-                    "pfModuleVer"          => '1.2.0',
+                    "pfModuleVer"          => '1.2.1',
                 ];
 
                 $pfValid = $payfastRequest->pfValidData($moduleInfo, $pfHost, $pfParamString);
@@ -149,7 +149,7 @@ if (defined('PAYMENT_NOTIFICATION')) {
                 switch ($pfData['payment_status']) {
                     case 'COMPLETE':
                         $payfastRequest->pflog('- Complete');
-                        $pp_response['order_status'] = $payfast_statuses['C'];
+                        $pp_response['order_status'] = $payfast_statuses['P'];
                         break;
 
                     case 'FAILED':

@@ -1,4 +1,4 @@
-{*Copyright (c) 2025 Payfast (Pty) Ltd*}
+{*Copyright (c) 2026 Payfast (Pty) Ltd*}
 <div class="control-group">
     <label class='control-label' for="merchant_id">{__("merchant_id")}:</label>
     <div class="controls">
